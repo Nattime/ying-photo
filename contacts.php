@@ -12,22 +12,12 @@
 			<a href="index.html">
 				<img src="./_img/logo.gif">
 			</a>
-			
-			<div class="menu-container">
-				<ul class="menu">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about_me.html">About Me</a></li>
-					<li><a href="fine_arts.html">Fine Arts</a></li>
-					<li><a href="corp_events.html">Corporate Events</a></li>
-					<li><a href="weddings.html">Weddings</a></li>
-					<li><a href="photo_lessons.html">Photo Lessons</a></li>
-					<li><a href="contacts.html">Contact</a></li>
-				</ul>
-			</div><!-- end menu-container -->
+
+			<?php include './_includes/menu.php' ?>
 		</header>
-		
+
 		<div class="contacts-container">
-			
+
 			<div class="contacts-info-container">
 				<img src="#">
 				<p class="contacts-info">Photographer: Ying Huang
@@ -35,19 +25,19 @@
 					<br>Number: 123-111-2372
 				</p>
 			</div><!-- end contacts-infBo-container -->
-			
+
 			<div id="clear"></div><!-- end clear -->
-			
+
 			<div class="contacts-info-container">
 				<img src="#">
 				<p class="contacts-info">Webmaster: Jie Huang
-					<br>Email: <a href="mailto:jiehuang@rutgers.edu?subject=Support" target="_top">jiehuang@rutgers.edu</a> 
+					<br>Email: <a href="mailto:jiehuang@rutgers.edu?subject=Support" target="_top">jiehuang@rutgers.edu</a>
 					<br>
 				</p>
 			</div><!-- end contacts-info-container -->
-			
+
 		</div><!-- end contacts-container -->
-		
+
 		<footer class="footer-contact-info">
 			<ul>
 				<li>

@@ -12,29 +12,19 @@
 			<a href="index.html">
 				<img src="./_img/logo.gif">
 			</a>
-			
-			<div class="menu-container">
-				<ul class="menu">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about_me.html">About Me</a></li>
-					<li><a href="fine_arts.html">Fine Arts</a></li>
-					<li><a href="corp_events.html">Corporate Events</a></li>
-					<li><a href="weddings.html">Weddings</a></li>
-					<li><a href="photo_lessons.html">Photo Lessons</a></li>
-					<li><a href="contacts.html">Contact</a></li>
-				</ul>
-			</div><!-- end menu-container -->
+
+			<?php include './_includes/menu.php' ?>
 		</header>
-		
+
 		<div class="fine_arts-container">
-			
+
 			<img src="_img/u38.jpg" alt="image 1">
 			<img src="_img/img_3.jpg" alt="image 2">
 			<img src="_img/img_2.jpg" alt="image 3">
 			<img src="_img/img_1.jpg" alt="image 4">
-			
+
 		</div><!-- end fine_arts-container -->
-		
+
 		<footer class="footer-contact-info">
 			<ul>
 				<li>
@@ -56,5 +46,3 @@
 		</footer>
 	</body>
 </html>
-
-
