@@ -22,7 +22,7 @@ ul li{
 }
 
 
-/* 
+/*
 	Header
  */
 header > a > img{
@@ -93,7 +93,7 @@ ul.menu > li:nth-last-of-type(1) > a{
 	width: 850px;
 	margin: 10px auto;
 	padding: 10px 0;
-	height: 480px;
+	height: 567px;
 	position: relative;
 }
 
@@ -133,7 +133,7 @@ ul.img-slider > li{
 
 ul.img-slider > li > img{
 	width: 850px;
-	height: 480px;
+	height: 567px;
 	margin: 0;
 	padding: 0;
 }
@@ -174,7 +174,7 @@ ul.img-slider > li:nth-child(3){
 .footer-contact-info > ul{
 	margin: 0;
 	padding: 0;
-	
+
 	display: -ms-flexbox;
 	-ms-flex-pack: end;
 	-ms-flex-align: end;
@@ -186,7 +186,7 @@ ul.img-slider > li:nth-child(3){
 	display: -webkit-box;
 	-webkit-box-pack: end;
 	-webkit-box-align: end;
-	
+
 	display: box;
 	box-pack: end;
 	box-align: end;

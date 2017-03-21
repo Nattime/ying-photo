@@ -9,6 +9,7 @@ html{
 }
 
 .contacts-container{
+	/*background-color: blue;*/
 	clear: both;
 	border: 1px solid #666;
 	padding: 0;
@@ -17,18 +18,21 @@ html{
 }
 
 .contacts-info-container{
+	/*background-color: red;*/
 	margin: 40px 200px 30px 40px;
 	padding: 0;
+	overflow: hidden;
 }
 
 .contacts-info{
+	/*background-color: yellow;*/
 	float: right;
 	width: 400px;
 }
 
 .contacts-info-container > img{
 	width: 200px;
-	height: 200px;
+	height: auto;
 }
 
 #clear{
